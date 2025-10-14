@@ -4,7 +4,7 @@ phases:
     commands:
       - echo Logging in to Amazon ECR....
       - aws --version
-      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 712193137949.dkr.ecr.ap-south-1.amazonaws.com
+      - aws ecr get-login-password --region ap-south-1 | docker login --username AWS --password-stdin 984392404606.dkr.ecr.ap-south-1.amazonaws.com
       - # Replace with this to your repository URI
       - REPOSITORY_URI=984392404606.dkr.ecr.ap-south-1.amazonaws.com/fe-repo
       - IMAGE_TAG=angular-routing-$CODEBUILD_BUILD_NUMBER
