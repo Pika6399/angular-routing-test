@@ -1,4 +1,5 @@
 FROM public.ecr.aws/docker/library/node:latest as build
+#test
 
 # Set the working directory
 WORKDIR /app
